@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#10111a">
+    <title>Hourglass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>hourglass<span>.</span></h1>
+            <p>Your time. Your milestones.</p>
+        </header>
+
+        <section class="form-card">
+            <h2>Create countdown</h2>
+            <input id="eventName" type="text" placeholder="Event name">
+            <input id="eventDate" type="datetime-local">
+            <button id="addBtn">+ Add countdown</button>
+        </section>
+
+        <section>
+            <div class="section-heading">
+                <h2>My countdowns</h2>
+                <span id="eventCount">0 events</span>
+            </div>
+            <div id="countdownList"></div>
+        </section>
+
+        <footer>Made for your moments.</footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

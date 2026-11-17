@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #10111a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 30px 16px;
+}
+
+.container {
+    max-width: 520px;
+    margin: auto;
+}
+
+header {
+    margin: 20px 0 35px;
+}
+
+header h1 {
+    font-size: 34px;
+    letter-spacing: -1px;
+}
+
+header h1 span {
+    color: #a78bfa;
+}
+
+header p {
+    color: #9293a5;
+    margin-top: 7px;
+}
+
+.form-card {
+    background: #1b1c29;
+    padding: 22px;
+    border-radius: 18px;
+    margin-bottom: 35px;
+    border: 1px solid #303143;
+}
+
+h2 {
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    background: #10111a;
+    border: 1px solid #38394b;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    color-scheme: dark;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #a78bfa;
+    color: #15121f;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.section-heading span {
+    color: #9293a5;
+    font-size: 13px;
+}
+
+.event-card {
+    background: #1b1c29;
+    border: 1px solid #303143;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 14px;
+}
+
+.event-name {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    overflow-wrap: anywhere;
+}
+
+.timer {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    color: #c4b5fd;
+    font-size: clamp(29px, 8vw, 39px);
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-variant-numeric: tabular-nums;
+}
+
+.timer-label {
+    color: #9293a5;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+
+.event-date {
+    color: #9293a5;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.delete-btn {
+    background: #30202b;
+    color: #ff8a9b;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.empty {
+    text-align: center;
+    color: #9293a5;
+    padding: 35px 10px;
+    background: #1b1c29;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    color: #646577;
+    font-size: 12px;
+    margin-top: 45px;
+}
